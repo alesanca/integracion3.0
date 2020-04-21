@@ -3,7 +3,9 @@ import MainMenu from "./MainMenu";
 
 function Header(){
     return(
-        <MainMenu />
+        <div className="header">
+            <MainMenu />
+        </div>
     )
 }
 

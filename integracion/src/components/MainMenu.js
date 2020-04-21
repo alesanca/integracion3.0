@@ -12,16 +12,15 @@ function myFunction() {
 
 function MainMenu(){
     return (
-        <div class="topnav" id="myTopnav">
-            <a href="#" class="active">Home</a>
+        <div className="topnav" id="myTopnav">
+            <a href="#" className="active">Home</a>
             <a href="#">News</a>
             <a href="#">Contact</a>
             <a href="#">About</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+            <i className="fa fa-bars"></i>
             </a>
         </div>
         )
     }
-
 export default MainMenu;
