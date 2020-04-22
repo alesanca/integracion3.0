@@ -1,0 +1,13 @@
+.doglist img{
+    height: 150px;
+    width: 250px;
+}
+
+.main_content .doglist{
+    border: 1px solid black;
+    margin-top: 1%;
+    width: 350px;
+    height: 250px;
+    float: left;
+    margin-left: 1%;
+}
