@@ -17,7 +17,7 @@ function MainMenu(){
             <a href="#">News</a>
             <a href="#">Contact</a>
             <a href="#">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" className="icon" onClick={myFunction}>
             <i className="fa fa-bars"></i>
             </a>
         </div>
